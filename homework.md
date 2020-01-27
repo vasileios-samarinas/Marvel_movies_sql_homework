@@ -244,4 +244,27 @@ id |                title                | year | show_time
 
 ## Extension
 
+
+
 1.  Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM people WHERE name IN ('Homer Simpson','Patty Bouvier');
+SELECT * FROM people
+
+id |         name         
+----+----------------------
+ 2 | Marge Simpson
+ 3 | Lisa Simpson
+ 4 | Maggie Simpson
+ 6 | Selma Bouvier
+ 7 | Kent Brockman
+ 8 | Ned Flanders
+ 9 | Barney Gumble
+10 | Itchy
+11 | Eric Cartman
+12 | Scratchy
+13 | Crusty the Clown
+14 | Montgomery Burns
+15 | Mayor Joe Quimby
+16 | Groundskeeper Willie
+(14 rows)

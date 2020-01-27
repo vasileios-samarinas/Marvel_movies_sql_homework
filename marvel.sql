@@ -69,6 +69,9 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 
  -- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2019, '24:00');
  -- SELECT * FROM movies;
- -- 
+ --
  -- UPDATE movies SET show_time='20:45' WHERE show_time='21:55';
  -- SELECT * FROM movies
+ -- 
+ -- DELETE FROM people WHERE name IN ('Homer Simpson','Patty Bouvier');
+ -- SELECT * FROM people
